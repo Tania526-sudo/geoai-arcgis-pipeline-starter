@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.env
+.venv
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data 
+data/00_raw/
+data/01_clean/
+data/02_qaqc/
+*.parquet
+*.gpkg
+*.shp
+*.dbf
+*.shx
+*.prj
+
+# ArcGIS / ESRI
+.arcgis/
+.arcgisprofile
+*.sd
+*.sditem
+*.sddraft
+
+# Credentials
+.env
+.env.*
+secrets.yaml
+credentials.json
+
+# Logs & reports
+logs/
+reports/
+*.log
+*.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# CI artifacts
+.coverage
+pytest_cache/
